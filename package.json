@@ -1,6 +1,6 @@
 {
-  "name": "with-firebase-hosting",
-  "version": "5.0.0",
+  "name": "stgrmeikan-next",
+  "version": "1.0.0",
   "description": "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
   "engines": {
     "node": "10"
@@ -10,8 +10,8 @@
     "dev": "next src/",
     "build": "next build src/",
     "start": "next start src/",
-    "serve": "npm run build && firebase emulators:start --only functions,hosting",
-    "shell": "npm run build && firebase functions:shell",
+    "serve": "yarn build && firebase emulators:start --only functions,hosting",
+    "shell": "yarn build && firebase functions:shell",
     "deploy": "firebase deploy --only functions,hosting",
     "logs": "firebase functions:log"
   },

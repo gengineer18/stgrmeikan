@@ -1,9 +1,9 @@
 import App from '../components/App'
 
-export default function About() {
+export default function Home() {
   return (
     <App>
-      <p>About Page</p>
+      <p>Index Page by TypeScript!</p>
     </App>
   )
 }

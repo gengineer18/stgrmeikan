@@ -1,9 +1,9 @@
-import React from 'react';
-import Link from 'next/link';
+import React from 'react'
+import Link from 'next/link'
 
 type IHeader = {
-  pathname?: string;
-};
+  pathname?: string
+}
 
 export const Header: React.FCX<IHeader> = ({ pathname }) => (
   <header>
@@ -15,4 +15,4 @@ export const Header: React.FCX<IHeader> = ({ pathname }) => (
       <a className={pathname === `/about` ? `is-active` : ``}>About</a>
     </Link>
   </header>
-);
+)

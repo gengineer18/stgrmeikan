@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typography } from '@material-ui/core'
-import App from '../components/App'
-import { myStyled } from '../types/themes'
+import App from '@/components/App'
+import { myStyled } from '@/types/themes'
 
 const StyleP = myStyled.p`
   font-size: 20px;

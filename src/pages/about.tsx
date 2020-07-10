@@ -1,6 +1,6 @@
 import React from 'react'
+import Layout from '@/layout/default'
 import { Typography } from '@material-ui/core'
-import App from '@/components/App'
 import { myStyled } from '@/types/themes'
 
 const StyleP = myStyled.p`
@@ -11,9 +11,9 @@ const StyleP = myStyled.p`
 
 export default function About(): JSX.Element {
   return (
-    <App>
+    <Layout>
       <StyleP>About Page by TypeScript!</StyleP>
       <Typography variant='subtitle1'>test</Typography>
-    </App>
+    </Layout>
   )
 }

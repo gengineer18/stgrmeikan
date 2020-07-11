@@ -1,3 +1,3 @@
 // colors
-export const colorPrimaryMain = `#8BC34A`
-export const colorSecondaryMain = `#FF5722`
+export const colorPrimaryMain = `#ffb74d`
+export const colorSecondaryMain = `#ff4081`

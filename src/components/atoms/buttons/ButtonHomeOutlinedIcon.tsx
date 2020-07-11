@@ -1,9 +1,11 @@
 import React from 'react'
-import { IconButton } from '@material-ui/core'
+import { Button } from '@material-ui/core'
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined'
+import { styledBNaviButton } from '@/styles/common'
+import { blueGrey } from '@material-ui/core/colors'
 
 export const ButtonHomeOutlinedIcon: React.FCX = () => (
-  <IconButton color='primary' aria-label='home'>
-    <HomeOutlinedIcon />
-  </IconButton>
+  <Button color='default' aria-label='home' css={styledBNaviButton}>
+    <HomeOutlinedIcon style={{ color: blueGrey[50] }} />
+  </Button>
 )

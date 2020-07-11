@@ -6,5 +6,5 @@ type IProps = {
 }
 
 export const CombinedButtonsAccount: React.FCX<IProps> = ({ path }) => (
-  <>{path === `/account` ? <ButtonAccountFilledIcon /> : <ButtonAccountOutlinedIcon />}</>
+  <>{path === `/mypage` ? <ButtonAccountFilledIcon /> : <ButtonAccountOutlinedIcon />}</>
 )

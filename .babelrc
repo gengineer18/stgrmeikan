@@ -1,8 +1,12 @@
 {
   "presets": [
-    "next/babel"
-  ],
-  "plugins": [
-    ["emotion"]
+    "next/babel",
+    [
+      "@emotion/babel-preset-css-prop",
+      {
+        "autoLabel": true,
+        "labelFormat": "[local]"
+      }
+    ]
   ]
 }

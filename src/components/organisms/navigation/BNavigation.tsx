@@ -1,7 +1,7 @@
 import React from 'react'
 import { css } from '@emotion/core'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
+import Link from '@/components/utils/Link'
 
 // icons
 import {

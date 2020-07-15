@@ -35,24 +35,16 @@ export const BNavigation: React.FCX = () => {
     <div css={styleBNaviWrapper}>
       <nav css={styleBNaviInner}>
         <Link href='/'>
-          <a>
-            <CombinedButtonsHome path={router.pathname} />
-          </a>
+          <CombinedButtonsHome path={router.pathname} />
         </Link>
         <Link href='/post'>
-          <a>
-            <CombinedButtonsAddAPhoto path={router.pathname} />
-          </a>
+          <CombinedButtonsAddAPhoto path={router.pathname} />
         </Link>
         <Link href='/clubs'>
-          <a>
-            <CombinedButtonsSoccer path={router.pathname} />
-          </a>
+          <CombinedButtonsSoccer path={router.pathname} />
         </Link>
         <Link href='/mypage'>
-          <a>
-            <CombinedButtonsAccount path={router.pathname} />
-          </a>
+          <CombinedButtonsAccount path={router.pathname} />
         </Link>
       </nav>
     </div>

@@ -12,8 +12,13 @@ const StyleP = myStyled.p`
 export default function Clubs(): JSX.Element {
   return (
     <App>
-      <StyleP>Post Page by TypeScript!</StyleP>
-      <Typography variant='subtitle1'>test</Typography>
+      <div>
+        <StyleP>Post Page by TypeScript!</StyleP>
+        <Typography variant='subtitle1'>test</Typography>
+        <Typography variant='subtitle1' css={{ marginTop: `100vh` }}>
+          test
+        </Typography>
+      </div>
     </App>
   )
 }

@@ -13,6 +13,7 @@ import {
 
 // styles
 import { colorPrimaryMain } from '@/styles/variable'
+import { baseInnerWidth } from '@/styles/common'
 
 const styleBNaviWrapper = css({
   position: `fixed`,
@@ -24,16 +25,11 @@ const styleBNaviWrapper = css({
   backgroundColor: `${colorPrimaryMain}`,
 })
 
-const styleBNaviInner = css({
-  maxWidth: `800px`,
-  margin: `auto`,
-})
-
 export const BNavigation: React.FCX = () => {
   const router = useRouter()
   return (
-    <div css={styleBNaviWrapper}>
-      <nav css={styleBNaviInner}>
+    <footer css={styleBNaviWrapper}>
+      <nav css={baseInnerWidth}>
         <Link href='/'>
           <CombinedButtonsHome path={router.pathname} />
         </Link>
@@ -47,6 +43,6 @@ export const BNavigation: React.FCX = () => {
           <CombinedButtonsAccount path={router.pathname} />
         </Link>
       </nav>
-    </div>
+    </footer>
   )
 }

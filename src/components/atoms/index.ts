@@ -7,3 +7,5 @@ export { ButtonSoccerFilledIcon } from '@/components/atoms/buttons/ButtonSoccerF
 export { ButtonSoccerOutlinedIcon } from '@/components/atoms/buttons/ButtonSoccerOutlinedIcon'
 export { ButtonAccountFilledIcon } from '@/components/atoms/buttons/ButtonAccountFilledIcon'
 export { ButtonAccountOutlinedIcon } from '@/components/atoms/buttons/ButtonAccountOutlinedIcon'
+export { ButtonMenuIcon } from '@/components/atoms/buttons/ButtonMenuIcon'
+export { ButtonLoginIcon } from '@/components/atoms/buttons/ButtonLoginIcon'

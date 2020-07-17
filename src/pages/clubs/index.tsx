@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from '@material-ui/core'
-import Layout from '@/layout/default'
+import App from '@/components/App'
 import { myStyled } from '@/types/themes'
 
 const StyleP = myStyled.p`
@@ -11,9 +11,9 @@ const StyleP = myStyled.p`
 
 export default function Clubs(): JSX.Element {
   return (
-    <Layout>
+    <App>
       <StyleP>Clubs Page by TypeScript!</StyleP>
       <Typography variant='subtitle1'>test</Typography>
-    </Layout>
+    </App>
   )
 }

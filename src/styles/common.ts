@@ -6,3 +6,9 @@ export const styledBNaviButton = css({
   width: `25%`,
   maxWidth: `200px`,
 })
+
+export const baseInnerWidth = css({
+  width: `100%`,
+  maxWidth: `960px`,
+  margin: `auto`,
+})

@@ -4,7 +4,7 @@ import MeetingRoomIcon from '@material-ui/icons/MeetingRoom'
 import { blueGrey } from '@material-ui/core/colors'
 
 export const ButtonLoginIcon: React.FCX = () => (
-  <IconButton aria-label='menu'>
+  <IconButton aria-label='login'>
     <MeetingRoomIcon style={{ color: blueGrey[50] }} />
   </IconButton>
 )

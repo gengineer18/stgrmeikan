@@ -9,10 +9,10 @@ const StyleP = myStyled.p`
   margin-top: ${(props) => props.theme.spacing(32)}px;
 `
 
-export default function User(): JSX.Element {
+export default function Complete(): JSX.Element {
   return (
     <App>
-      <StyleP>User Page by TypeScript!</StyleP>
+      <StyleP>Complete Page by TypeScript!</StyleP>
       <Typography variant='subtitle1'>test</Typography>
     </App>
   )

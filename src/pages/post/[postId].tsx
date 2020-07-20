@@ -1,19 +1,19 @@
 import React from 'react'
-import { Typography } from '@material-ui/core'
 import App from '@/components/App'
-import { myStyled } from '@/types/themes'
-
-const StyleP = myStyled.p`
-  font-size: 20px;
-  color: ${(props) => props.theme.palette.primary.main};
-  margin-top: ${(props) => props.theme.spacing(32)}px;
-`
+import { PostCard } from '@/components/organisms'
+import { IconButton } from '@material-ui/core'
+import ArrowBackIcon from '@material-ui/icons/ArrowBack'
 
 export default function PostId(): JSX.Element {
   return (
     <App>
-      <StyleP>PostId Page by TypeScript!</StyleP>
-      <Typography variant='subtitle1'>test</Typography>
+      <div css={{ display: `flex`, alignItems: `center` }}>
+        <IconButton>
+          <ArrowBackIcon />
+        </IconButton>
+        <span>FC東京</span>
+      </div>
+      <PostCard />
     </App>
   )
 }

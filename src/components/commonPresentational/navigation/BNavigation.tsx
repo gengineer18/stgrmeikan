@@ -1,7 +1,7 @@
 import React from 'react'
 import { css } from '@emotion/core'
 import { useRouter } from 'next/router'
-import Link from '@/components/utils/Link'
+import Link from '@/components/atom/Link'
 
 // icons
 import {
@@ -9,7 +9,7 @@ import {
   CombinedButtonsAddAPhoto,
   CombinedButtonsHome,
   CombinedButtonsSoccer,
-} from '@/components/molecules'
+} from '@/components/presentational'
 
 // styles
 import { colorPrimaryMain } from '@/styles/variable'

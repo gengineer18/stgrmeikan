@@ -1,5 +1,4 @@
 import { css } from '@emotion/core'
-import { red } from '@material-ui/core/colors'
 
 // buttons
 export const styledBNaviButton = css({

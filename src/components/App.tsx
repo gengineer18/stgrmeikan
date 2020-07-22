@@ -1,5 +1,5 @@
 import React from 'react'
-import { TheHeader, BNavigation } from '@/components/organisms'
+import { TheHeader, BNavigation } from '@/components/commonPresentational'
 
 // styles
 import { css } from '@emotion/core'

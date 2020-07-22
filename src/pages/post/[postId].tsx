@@ -1,6 +1,6 @@
 import React from 'react'
 import App from '@/components/App'
-import { PostCard } from '@/components/organisms'
+import { PostCard } from '@/components/presentational'
 import { IconButton } from '@material-ui/core'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack'
 

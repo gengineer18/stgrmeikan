@@ -1,11 +1,8 @@
 import React from 'react'
-import { Button } from '@material-ui/core'
-import SportsSoccerIcon from '@material-ui/icons/SportsSoccer'
-import { styledBNaviButton } from '@/styles/common'
-import { blueGrey } from '@material-ui/core/colors'
+import { Button } from 'antd'
+import { IconSoccerOutlined } from '@/components/atoms/icons/IconSoccerOutlined'
+import { styledBNaviButton, styledIconButton } from '@/styles/common'
 
 export const ButtonSoccerOutlinedIcon: React.FCX = () => (
-  <Button color='default' aria-label='soccer' css={styledBNaviButton}>
-    <SportsSoccerIcon style={{ color: blueGrey[50] }} />
-  </Button>
+  <Button type='text' block icon={<IconSoccerOutlined css={styledIconButton} />} css={styledBNaviButton} />
 )

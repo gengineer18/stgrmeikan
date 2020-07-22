@@ -5,6 +5,7 @@ import { ThemeProvider as MaterialThemeProvider } from '@material-ui/styles'
 import { ThemeProvider as StyledThemeProvider } from 'emotion-theming'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import theme from '@/styles/theme'
+import 'antd/dist/antd.css'
 
 export default function MyApp(props: AppProps): JSX.Element {
   const { Component, pageProps } = props

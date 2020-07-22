@@ -1,8 +1,9 @@
 import React from 'react'
-import { Button } from '@material-ui/core'
+import { Button } from 'antd'
+import { SearchOutlined } from '@ant-design/icons'
 
 export const ButtonPrimary: React.FCX = ({ children }: { children: React.ReactNode }) => (
-  <Button variant='contained' color='primary'>
+  <Button type='primary' icon={<SearchOutlined />}>
     {children}
   </Button>
 )

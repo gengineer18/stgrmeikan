@@ -1,10 +1,8 @@
 import React from 'react'
-import { IconButton } from '@material-ui/core'
-import MenuIcon from '@material-ui/icons/Menu'
-import { blueGrey } from '@material-ui/core/colors'
+import { Button } from 'antd'
+import { MenuOutlined } from '@ant-design/icons'
+import { styledIconButton } from '@/styles/common'
 
 export const ButtonMenuIcon: React.FCX = () => (
-  <IconButton aria-label='menu'>
-    <MenuIcon style={{ color: blueGrey[50] }} />
-  </IconButton>
+  <Button type='text' size='large' icon={<MenuOutlined />} css={styledIconButton} />
 )

@@ -1,11 +1,8 @@
 import React from 'react'
-import { Button } from '@material-ui/core'
-import AddAPhotoOutlinedIcon from '@material-ui/icons/AddAPhotoOutlined'
-import { styledBNaviButton } from '@/styles/common'
-import { blueGrey } from '@material-ui/core/colors'
+import { Button } from 'antd'
+import { CameraOutlined } from '@ant-design/icons'
+import { styledBNaviButton, styledIconButton } from '@/styles/common'
 
 export const ButtonAddAPhotoOutlinedIcon: React.FCX = () => (
-  <Button color='default' aria-label='add' css={styledBNaviButton}>
-    <AddAPhotoOutlinedIcon style={{ color: blueGrey[50] }} />
-  </Button>
+  <Button type='text' block icon={<CameraOutlined css={styledIconButton} />} css={styledBNaviButton} />
 )

@@ -20,6 +20,7 @@
     "storybook": "start-storybook -p 6006 -c .storybook"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.2.1",
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
@@ -27,6 +28,7 @@
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
     "@storybook/react": "^5.3.19",
+    "antd": "^4.4.3",
     "babel-plugin-emotion": "^10.0.33",
     "clsx": "^1.1.1",
     "emotion-theming": "^10.0.27",

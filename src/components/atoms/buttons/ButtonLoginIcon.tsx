@@ -1,10 +1,8 @@
 import React from 'react'
-import { IconButton } from '@material-ui/core'
-import MeetingRoomIcon from '@material-ui/icons/MeetingRoom'
-import { blueGrey } from '@material-ui/core/colors'
+import { Button } from 'antd'
+import { LoginOutlined } from '@ant-design/icons'
+import { styledIconButton } from '@/styles/common'
 
 export const ButtonLoginIcon: React.FCX = () => (
-  <IconButton aria-label='login'>
-    <MeetingRoomIcon style={{ color: blueGrey[50] }} />
-  </IconButton>
+  <Button type='text' size='large' icon={<LoginOutlined />} css={styledIconButton} />
 )

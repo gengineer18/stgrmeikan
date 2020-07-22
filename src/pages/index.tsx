@@ -3,7 +3,7 @@ import App from '@/components/App'
 import { StButton } from '@/components/StButton'
 import { ButtonCircleAddIcon } from '@/components/atom/buttons/ButtonCircleAddIcon'
 import { ButtonPrimary } from '@/components/atom/buttons/ButtonPrimary'
-import Link from '@/components/utils/Link'
+import Link from '@/components/atom/Link'
 
 export default function Home(): JSX.Element {
   return (

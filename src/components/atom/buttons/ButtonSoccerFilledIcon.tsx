@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
-import { IconSoccerFilled } from '@/components/atoms/icons/IconSoccerFilled'
+import { IconSoccerFilled } from '@/components/atom/icons/IconSoccerFilled'
 import { styledBNaviButton, styledIconButton } from '@/styles/common'
 
 export const ButtonSoccerFilledIcon: React.FCX = () => (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonAccountFilledIcon, ButtonAccountOutlinedIcon } from '@/components/atoms'
+import { ButtonAccountFilledIcon, ButtonAccountOutlinedIcon } from '@/components/atom'
 
 type IProps = {
   path: string

@@ -1,7 +1,7 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
-import { ButtonMenuIcon, ButtonLoginIcon } from '@/components/atoms'
+import { ButtonMenuIcon, ButtonLoginIcon } from '@/components/atom'
 
 // styles
 import { colorPrimaryMain } from '@/styles/variable'

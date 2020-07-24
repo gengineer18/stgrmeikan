@@ -1,7 +1,7 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
-import { ButtonMenuIcon, ButtonLoginIcon } from '@/components/atom'
+import { ButtonMenu, ButtonLogin } from '@/components/atom'
 
 // styles
 import { colorPrimaryMain } from '@/styles/variable'
@@ -26,12 +26,12 @@ export const TheHeader: React.FCX = () => (
   <AppBar position='fixed' css={styleAppBar}>
     <Toolbar css={baseInnerWidth}>
       <div css={layout}>
-        <ButtonMenuIcon />
+        <ButtonMenu />
       </div>
       <figure css={layout}>
         <img alt='J-StaGourmet' />
       </figure>
-      <ButtonLoginIcon />
+      <ButtonLogin />
     </Toolbar>
   </AppBar>
 )

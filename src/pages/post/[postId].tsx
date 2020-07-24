@@ -1,16 +1,13 @@
 import React from 'react'
 import App from '@/components/App'
 import { PostCard } from '@/components/presentational'
-import { IconButton } from '@material-ui/core'
-import ArrowBackIcon from '@material-ui/icons/ArrowBack'
+import { ButtonBack } from '@/components/atom'
 
 export default function PostId(): JSX.Element {
   return (
     <App>
       <div css={{ display: `flex`, alignItems: `center` }}>
-        <IconButton>
-          <ArrowBackIcon />
-        </IconButton>
+        <ButtonBack />
         <span>FC東京</span>
       </div>
       <PostCard />

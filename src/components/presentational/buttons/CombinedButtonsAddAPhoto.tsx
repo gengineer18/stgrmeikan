@@ -1,10 +1,10 @@
 import React from 'react'
-import { ButtonAddAPhotoFilledIcon, ButtonAddAPhotoOutlinedIcon } from '@/components/atom'
+import { ButtonAddAPhotoFilled, ButtonAddAPhotoOutlined } from '@/components/atom'
 
 type IProps = {
   path: string
 }
 
 export const CombinedButtonsAddAPhoto: React.FCX<IProps> = ({ path }) => (
-  <>{path === `/post` ? <ButtonAddAPhotoFilledIcon /> : <ButtonAddAPhotoOutlinedIcon />}</>
+  <>{path === `/post` ? <ButtonAddAPhotoFilled /> : <ButtonAddAPhotoOutlined />}</>
 )

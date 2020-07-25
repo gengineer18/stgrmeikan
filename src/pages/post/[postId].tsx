@@ -1,16 +1,19 @@
 import React from 'react'
 import App from '@/components/App'
 import { PostCard } from '@/components/presentational'
-import { ButtonBack } from '@/components/atom'
+import { css } from '@emotion/core'
+
+const styleArticle = css({
+  margin: `auto`,
+  maxWidth: `94%`,
+})
 
 export default function PostId(): JSX.Element {
   return (
     <App>
-      <div css={{ display: `flex`, alignItems: `center` }}>
-        <ButtonBack />
-        <span>FC東京</span>
-      </div>
-      <PostCard />
+      <article css={styleArticle}>
+        <PostCard />
+      </article>
     </App>
   )
 }

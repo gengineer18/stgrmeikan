@@ -1,5 +1,5 @@
 import * as React from 'react'
 import { storiesOf } from '@storybook/react'
-import { ButtonHomeOutlinedIcon } from '@/components/atom'
+import { ButtonHomeOutlined } from '@/components/atom'
 
-storiesOf(`atoms/buttons`, module).add(`ButtonHomeOutlinedIcon`, () => <ButtonHomeOutlinedIcon />)
+storiesOf(`atoms/buttons`, module).add(`ButtonHomeOutlinedIcon`, () => <ButtonHomeOutlined />)

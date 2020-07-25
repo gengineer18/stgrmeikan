@@ -3,6 +3,6 @@ import { Button } from 'antd'
 import { LoginOutlined } from '@ant-design/icons'
 import { styledIconButton } from '@/styles/common'
 
-export const ButtonLoginIcon: React.FCX = () => (
+export const ButtonLogin: React.FCX = () => (
   <Button type='text' size='large' icon={<LoginOutlined />} css={styledIconButton} />
 )

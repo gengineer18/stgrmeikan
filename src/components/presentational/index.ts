@@ -3,6 +3,7 @@ export { CombinedButtonsAccount } from '@/components/presentational/buttons/Comb
 export { CombinedButtonsAddAPhoto } from '@/components/presentational/buttons/CombinedButtonsAddAPhoto'
 export { CombinedButtonsHome } from '@/components/presentational/buttons/CombinedButtonsHome'
 export { CombinedButtonsSoccer } from '@/components/presentational/buttons/CombinedButtonsSoccer'
+export { CombinedButtonsFavorite } from '@/components/presentational/buttons/CombinedButtonsFavorite'
 
 // card
 export { PostCard } from '@/components/presentational/card/PostCard'

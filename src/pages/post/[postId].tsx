@@ -1,19 +1,19 @@
 import React from 'react'
 import App from '@/components/App'
 import { PostCard } from '@/components/presentational'
-import { IconButton } from '@material-ui/core'
-import ArrowBackIcon from '@material-ui/icons/ArrowBack'
+import { css } from '@emotion/core'
+
+const styleArticle = css({
+  margin: `auto`,
+  maxWidth: `94%`,
+})
 
 export default function PostId(): JSX.Element {
   return (
     <App>
-      <div css={{ display: `flex`, alignItems: `center` }}>
-        <IconButton>
-          <ArrowBackIcon />
-        </IconButton>
-        <span>FC東京</span>
-      </div>
-      <PostCard />
+      <article css={styleArticle}>
+        <PostCard />
+      </article>
     </App>
   )
 }

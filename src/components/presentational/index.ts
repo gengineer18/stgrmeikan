@@ -7,3 +7,6 @@ export { CombinedButtonsFavorite } from '@/components/presentational/buttons/Com
 
 // card
 export { PostCard } from '@/components/presentational/card/PostCard'
+
+// list
+export { ClubList } from '@/components/presentational/list/ClubList'

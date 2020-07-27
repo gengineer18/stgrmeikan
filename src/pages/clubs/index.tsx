@@ -1,19 +1,25 @@
 import React from 'react'
-import { Typography } from '@material-ui/core'
 import App from '@/components/App'
-import { myStyled } from '@/types/themes'
+import clubs from '@/assets/json/AllClubs.json'
+import { ClubData } from '@/types/json'
 
-const StyleP = myStyled.p`
-  font-size: 20px;
-  color: ${(props) => props.theme.palette.primary.main};
-  margin-top: ${(props) => props.theme.spacing(32)}px;
-`
+import { ClubList } from '@/components/presentational'
 
-export default function Clubs(): JSX.Element {
+export default function Clubs({ data }: { data: ClubData }): JSX.Element {
   return (
     <App>
-      <StyleP>Clubs Page by TypeScript!</StyleP>
-      <Typography variant='subtitle1'>test</Typography>
+      {data.clubData.map((area) => (
+        <ClubList data={area} key={area.id} />
+      ))}
     </App>
   )
+}
+
+export function getStaticProps(): { props: { data: ClubData } } {
+  const data = clubs
+  return {
+    props: {
+      data,
+    },
+  }
 }

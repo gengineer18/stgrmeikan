@@ -1,0 +1,416 @@
+{
+  "clubData": [
+    {
+      "id": 1,
+      "areaEn": "hokkaidoTohoku",
+      "areaJp": "北海道・東北",
+      "list": [
+        {
+          "id": 1,
+          "clubId": "consadole",
+          "name": "北海道コンサドーレ札幌",
+          "color1": "#d7000f",
+          "color2": "#000000"
+        },
+        {
+          "id": 2,
+          "clubId": "vanraure",
+          "name": "ヴァンラーレ八戸",
+          "color1": "#008836"
+        },
+        {
+          "id": 3,
+          "clubId": "grulla",
+          "name": "いわてグルージャ盛岡",
+          "color1": "#FFFFFF",
+          "color2": "#000000"
+        },
+        {
+          "id": 4,
+          "clubId": "vegalta",
+          "name": "ベガルタ仙台",
+          "color1": "#fcc800"
+        },
+        {
+          "id": 5,
+          "clubId": "blaublitz",
+          "name": "ブラウブリッツ秋田",
+          "color1": "#005BAB"
+        },
+        {
+          "id": 6,
+          "clubId": "montedio",
+          "name": "モンテディオ山形",
+          "color1": "#004099",
+          "color2": "#FFFFFF"
+        },
+        {
+          "id":7,
+          "clubId": "fukushima",
+          "name": "福島ユナイテッドFC",
+          "color1": "#E60012",
+          "color2": "#211612"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "areaEn": "kanto",
+      "areaJp": "関東",
+      "list": [
+        {
+          "id": 8,
+          "clubId": "antlers",
+          "name": "鹿島アントラーズ",
+          "color1": "#B8183F"
+        },
+        {
+          "id": 9,
+          "clubId": "hollyhock",
+          "name": "水戸ホーリーホック",
+          "color1": "#1C2088"
+        },
+        {
+          "id": 10,
+          "clubId": "tochigisc",
+          "name": "栃木SC",
+          "color1": "#FFEA02"
+        },
+        {
+          "id": 11,
+          "clubId": "thespa",
+          "name": "ザスパクサツ群馬",
+          "color1": "#00063A",
+          "color2": "#FDD448"
+        },
+        {
+          "id": 12,
+          "clubId": "reds",
+          "name": "浦和レッズ",
+          "color1": "#E6002D"
+        },
+        {
+          "id": 13,
+          "clubId": "ardija",
+          "name": "大宮アルディージャ",
+          "color1": "#ED6C00"
+        },
+        {
+          "id": 14,
+          "clubId": "jef",
+          "name": "ジェフユナイテッド千葉",
+          "color1": "#FFE100",
+          "color2": "#009260"
+        },
+        {
+          "id": 15,
+          "clubId": "reysol",
+          "name": "柏レイソル",
+          "color1": "#FFE850"
+        },
+        {
+          "id": 16,
+          "clubId": "fctokyo",
+          "name": "FC東京",
+          "color1": "#0B2F8E",
+          "color2": "#E5002C"
+        },
+        {
+          "id": 17,
+          "clubId": "verdy",
+          "name": "東京ヴェルディ",
+          "color1": "#006937"
+        },
+        {
+          "id": 18,
+          "clubId": "zelvia",
+          "name": "FC町田ゼルビア",
+          "color1": "#0054A7",
+          "color2": "#BEAF71"
+        },
+        {
+          "id": 19,
+          "clubId": "frontale",
+          "name": "川崎フロンターレ",
+          "color1": "#20AEF4",
+          "color2": "#212121"
+        },
+        {
+          "id": 20,
+          "clubId": "fmarinos",
+          "name": "横浜F・マリノス",
+          "color1": "#003F98",
+          "color2": "#FFFFFF",
+          "color3": "#E6002D"
+        },
+        {
+          "id": 21,
+          "clubId": "yokohamafc",
+          "name": "横浜FC",
+          "color1": "#00A0E9"
+        },
+        {
+          "id": 22,
+          "clubId": "yscc",
+          "name": "Y.S.C.C.横浜",
+          "color1": "#005BAB",
+          "color2": "#EE7A00"
+        },
+        {
+          "id": 23,
+          "clubId": "scsagamihara",
+          "name": "SC相模原",
+          "color1": "#2E8D47",
+          "color2": "#373333"
+        },
+        {
+          "id": 24,
+          "clubId": "bellmare",
+          "name": "湘南ベルマーレ",
+          "color1": "#6FBA2B",
+          "color2": "#004081"
+        },
+        {
+          "id": 25,
+          "clubId": "ventforet",
+          "name": "ヴァンフォーレ甲府",
+          "color1": "#0060B5",
+          "color2": "#CA1944"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "areaEn": "tokaiHokushinetsu",
+      "areaJp": "東海・北信越",
+        "list": [
+          {
+            "id": 26,
+            "clubId": "spulse",
+            "name": "清水エスパルス",
+            "color1": "#FF8706"
+          },
+          {
+            "id": 27,
+            "clubId": "jubilo",
+            "name": "ジュビロ磐田",
+            "color1": "#7399D1"
+          },
+          {
+            "id": 28,
+            "clubId": "fujiedamyfc",
+            "name": "藤枝MYFC",
+            "color1": "#803376"
+          },
+          {
+            "id": 29,
+            "clubId": "azulclaro",
+            "name": "アスルクラロ沼津",
+            "color1": "#00A0E9",
+            "color2": "#122A88"
+          },
+          {
+            "id": 30,
+            "clubId": "grampus",
+            "name": "名古屋グランパス",
+            "color1": "#D70C17",
+            "color2": "#F39800"
+          },
+          {
+            "id": 31,
+            "clubId": "fcgifu",
+            "name": "FC岐阜",
+            "color1": "#016427",
+            "color2": "#45B158"
+          },
+          {
+            "id": 32,
+            "clubId": "parceiro",
+            "name": "AC長野パルセイロ",
+            "color1": "#DA7600",
+            "color2": "#1A2260"
+          },
+          {
+            "id": 33,
+            "clubId": "yamaga",
+            "name": "松本山雅FC",
+            "color1": "#007343",
+            "color2": "#003E20"
+          },
+          {
+            "id": 34,
+            "clubId": "albirex",
+            "name": "アルビレックス新潟",
+            "color1": "#E95405",
+            "color2": "#004099"
+          },
+          {
+            "id": 35,
+            "clubId": "kataller",
+            "name": "カターレ富山",
+            "color1": "#0D267E",
+            "color2": "#9B0337"
+          },
+          {
+            "id": 36,
+            "clubId": "zweigen",
+            "name": "ツエーゲン金沢",
+            "color1": "#D70C1E",
+            "color2": "#000000"
+          }
+        ]
+    },
+    {
+      "id": 4,
+      "areaEn": "kinki",
+      "areaJp": "近畿",
+      "list": [
+        {
+          "id": 37,
+          "clubId": "sanga",
+          "name": "京都サンガF.C.",
+          "color1": "#842178"
+        },
+        {
+          "id": 38,
+          "clubId": "gamba",
+          "name": "ガンバ大阪",
+          "color1": "#013981",
+          "color2": "#000000"
+        },
+        {
+          "id": 39,
+          "clubId": "cerezo",
+          "name": "セレッソ大阪",
+          "color1": "#DA005C"
+        },
+        {
+          "id": 40,
+          "clubId": "vissel",
+          "name": "ヴィッセル神戸",
+          "color1": "#9B001F"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "areaEn": "chugokuShikoku",
+      "areaJp": "中国・四国",
+      "list": [
+        {
+          "id": 41,
+          "clubId": "gainare",
+          "name": "ガイナーレ鳥取",
+          "color1": "#6DBA3C",
+          "color2": "#023458"
+        },
+        {
+          "id": 42,
+          "clubId": "fagiano",
+          "name": "ファジアーノ岡山",
+          "color1": "#B6003D",
+          "color2": "#1D2368"
+        },
+        {
+          "id": 43,
+          "clubId": "sanfrecce",
+          "name": "サンフレッチェ広島",
+          "color1": "#51308F"
+        },
+        {
+          "id": 44,
+          "clubId": "renofa",
+          "name": "レノファ山口FC",
+          "color1": "#EB5C00"
+        },
+        {
+          "id": 45,
+          "clubId": "vortis",
+          "name": "徳島ヴォルティス",
+          "color1": "#0A308F",
+          "color2": "#6BB131"
+        },
+        {
+          "id": 46,
+          "clubId": "kamatamare",
+          "name": "カマタマーレ讃岐",
+          "color1": "#65AADD",
+          "color2": "#004471"
+        },
+        {
+          "id": 47,
+          "clubId": "ehimefc",
+          "name": "愛媛FC",
+          "color1": "#FF951B"
+        },
+        {
+          "id": 48,
+          "clubId": "fcimabari",
+          "name": "FC今治",
+          "color1": "#161B60",
+          "color2": "#FFF102"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "areaEn": "kyushuOkinawa",
+      "areaJp": "九州・沖縄",
+      "list": [
+        {
+          "id": 49,
+          "clubId": "avispa",
+          "name": "アビスパ福岡",
+          "color1": "#17284C",
+          "color2": "#9C9E9E"
+        },
+        {
+          "id": 50,
+          "clubId": "giravanz",
+          "name": "ギラヴァンツ北九州",
+          "color1": "#FFF102",
+          "color2": "#E60012"
+        },
+        {
+          "id": 51,
+          "clubId": "sagan",
+          "name": "サガン鳥栖",
+          "color1": "#2096F3",
+          "color2": "#E95598"
+        },
+        {
+          "id": 52,
+          "clubId": "v-varen",
+          "name": "V・ファーレン長崎",
+          "color1": "#F39800",
+          "color2": "#005BAC"
+        },
+        {
+          "id": 53,
+          "clubId": "roasso",
+          "name": "ロアッソ熊本",
+          "color1": "#B71915"
+        },
+        {
+          "id": 54,
+          "clubId": "trinita",
+          "name": "大分トリニータ",
+          "color1": "#13098B"
+        },
+        {
+          "id": 55,
+          "clubId": "kagoshima",
+          "name": "鹿児島ユナイテッドFC",
+          "color1": "#16335C"
+        },
+        {
+          "id": 56,
+          "clubId": "fcryukyu",
+          "name": "FC琉球",
+          "color1": "#BE003B",
+          "color2": "#E0CD76"
+        }
+      ]
+    }
+  ]
+}

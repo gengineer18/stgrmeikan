@@ -1,4 +1,5 @@
 import { css } from '@emotion/core'
+import { colorText } from '@/styles/variable'
 
 // buttons
 export const styledBNaviButton = css({
@@ -8,14 +9,14 @@ export const styledBNaviButton = css({
 })
 
 export const styledIconButton = css({
-  color: `white`,
+  color: `${colorText}`,
   fontSize: `1.4rem`,
   transitionProperty: `color`,
   '&:hover': {
-    color: `white`,
+    color: `${colorText}`,
   },
   '&:focus': {
-    color: `white`,
+    color: `${colorText}`,
   },
 })
 

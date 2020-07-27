@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Link from '@/components/atom/Link'
+import Link from 'next/link'
 import { Avatar, ListItemAvatar, List, ListItem, ListItemText, Collapse } from '@material-ui/core'
 import ExpandMore from '@material-ui/icons/ExpandMore'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
@@ -28,7 +28,12 @@ export const ClubList: React.FCX<IProps> = ({ data }) => {
               <Link href='/clubs/[clubid]' as={`/clubs/${item.clubId}`}>
                 <ListItem button>
                   <ListItemAvatar>
-                    <Avatar variant='rounded' src={`/static/images/clubs/${item.clubId}.png`} alt={`${item.clubId}`} />
+                    <Avatar
+                      sizes='40'
+                      variant='square'
+                      src={`/static/images/clubs/${item.clubId}.png`}
+                      alt={`${item.clubId}`}
+                    />
                   </ListItemAvatar>
                   <ListItemText primary={`${item.name}`} />
                 </ListItem>

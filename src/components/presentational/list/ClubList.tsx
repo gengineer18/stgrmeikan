@@ -31,7 +31,7 @@ export const ClubList: React.FCX<IProps> = ({ data }) => {
                     <Avatar
                       sizes='40'
                       variant='square'
-                      src={`/static/images/clubs/${item.clubId}.png`}
+                      src={`/images/clubs/${item.clubId}.png`}
                       alt={`${item.clubId}`}
                     />
                   </ListItemAvatar>

@@ -61,7 +61,7 @@ export const PostCard: React.FCX = () => {
           title='Shrimp and Chorizo Paella'
           subheader='September 14, 2016'
         />
-        <CardMedia className={classes.media} image='/static/images/paella.jpg' title='Paella dish' />
+        <CardMedia className={classes.media} image='/images/paella.jpg' title='Paella dish' />
         <CardContent>
           <Typography variant='body2' color='textSecondary' component='p'>
             This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup

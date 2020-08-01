@@ -1,3 +1,6 @@
+// button base
+export { ColorButton } from '@/components/atom/buttons/base/ColorButton'
+
 // buttons square
 export { ButtonAddAPhotoFilled } from '@/components/atom/buttons/square/ButtonAddAPhotoFilled'
 export { ButtonAddAPhotoOutlined } from '@/components/atom/buttons/square/ButtonAddAPhotoOutlined'

@@ -1,19 +1,24 @@
 import React from 'react'
-import { Typography } from '@material-ui/core'
 import App from '@/components/App'
-import { myStyled } from '@/types/themes'
+import { LoginButtonTwitter, LoginButtonFacebook, LoginButtonGoogle } from '@/components/presentational'
+import { css } from '@emotion/core'
 
-const StyleP = myStyled.p`
-  font-size: 20px;
-  color: ${(props) => props.theme.palette.primary.main};
-  margin-top: ${(props) => props.theme.spacing(32)}px;
-`
+const style = css({
+  marginTop: `8px`,
+})
 
 export default function Login(): JSX.Element {
   return (
     <App>
-      <StyleP>Login Page by TypeScript!</StyleP>
-      <Typography variant='subtitle1'>test</Typography>
+      <div css={style}>
+        <LoginButtonTwitter />
+      </div>
+      <div css={style}>
+        <LoginButtonFacebook />
+      </div>
+      <div css={style}>
+        <LoginButtonGoogle />
+      </div>
     </App>
   )
 }

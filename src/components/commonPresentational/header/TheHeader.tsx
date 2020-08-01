@@ -1,6 +1,7 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
+import Link from 'next/link'
 import { ButtonMenu, ButtonLogin } from '@/components/atom'
 
 // styles
@@ -31,7 +32,11 @@ export const TheHeader: React.FCX = () => (
       <figure css={layout}>
         <img alt='J-StaGourmet' />
       </figure>
-      <ButtonLogin />
+      <Link href='/login'>
+        <a>
+          <ButtonLogin />
+        </a>
+      </Link>
     </Toolbar>
   </AppBar>
 )

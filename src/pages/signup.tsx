@@ -1,19 +1,58 @@
 import React from 'react'
-import { Typography } from '@material-ui/core'
 import App from '@/components/App'
-import { myStyled } from '@/types/themes'
+import { Typography, Space, Divider } from 'antd'
+import { ButtonTwitter, ButtonFacebook, ButtonGoogle } from '@/components/commonPresentational'
+import { css } from '@emotion/core'
+import NextLink from 'next/link'
+import { TitleH1 } from '@/components/atom'
 
-const StyleP = myStyled.p`
-  font-size: 20px;
-  color: ${(props) => props.theme.palette.primary.main};
-  margin-top: ${(props) => props.theme.spacing(32)}px;
-`
+const { Paragraph, Link } = Typography
 
-export default function SignUp(): JSX.Element {
+const styledWrap = css({
+  maxWidth: `560px`,
+  margin: `16px auto`,
+  textAlign: `center`,
+})
+
+const styledSpace = css({
+  display: `block`,
+})
+
+export default function Login(): JSX.Element {
+  const usage = `新規登録`
   return (
     <App>
-      <StyleP>SignUp Page by TypeScript!</StyleP>
-      <Typography variant='subtitle1'>test</Typography>
+      <div css={styledWrap}>
+        <TitleH1>
+          J-StaGourmetに
+          {usage}
+        </TitleH1>
+        <Divider />
+        <Space direction='vertical' css={styledSpace} size='middle'>
+          <ButtonTwitter usage={usage} />
+          <ButtonFacebook usage={usage} />
+          <ButtonGoogle usage={usage} />
+        </Space>
+        <Divider />
+        <Paragraph>
+          {usage}
+          することにより、
+          <br />
+          <Link href='/terms' target='_blank'>
+            利用規約
+          </Link>
+          および
+          <Link href='/privacy' target='_blank'>
+            プライバシーポリシー
+          </Link>
+          に同意したとみなされます。
+        </Paragraph>
+        <Paragraph strong>
+          <NextLink href='/login'>
+            <a>ログインはこちら</a>
+          </NextLink>
+        </Paragraph>
+      </div>
     </App>
   )
 }

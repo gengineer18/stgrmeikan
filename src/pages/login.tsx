@@ -1,11 +1,12 @@
 import React from 'react'
 import App from '@/components/App'
 import { Typography, Space, Divider } from 'antd'
-import { LoginButtonTwitter, LoginButtonFacebook, LoginButtonGoogle } from '@/components/presentational'
+import { ButtonTwitter, ButtonFacebook, ButtonGoogle } from '@/components/commonPresentational'
 import { css } from '@emotion/core'
 import NextLink from 'next/link'
+import { TitleH1 } from '@/components/atom'
 
-const { Title, Paragraph, Link } = Typography
+const { Paragraph, Link } = Typography
 
 const styledWrap = css({
   maxWidth: `560px`,
@@ -13,26 +14,24 @@ const styledWrap = css({
   textAlign: `center`,
 })
 
-const styledTitle = css({
-  fontSize: `1.8rem`,
-})
-
 const styledSpace = css({
   display: `block`,
 })
 
 export default function Login(): JSX.Element {
+  const usage = `ログイン`
   return (
     <App>
       <div css={styledWrap}>
-        <Title>
-          <span css={styledTitle}>ログイン</span>
-        </Title>
+        <TitleH1>
+          J-StaGourmetに
+          {usage}
+        </TitleH1>
         <Divider />
         <Space direction='vertical' css={styledSpace} size='middle'>
-          <LoginButtonTwitter />
-          <LoginButtonFacebook />
-          <LoginButtonGoogle />
+          <ButtonTwitter usage={usage} />
+          <ButtonFacebook usage={usage} />
+          <ButtonGoogle usage={usage} />
         </Space>
         <Divider />
         <Paragraph>
@@ -47,11 +46,10 @@ export default function Login(): JSX.Element {
           </Link>
           に同意したとみなされます。
         </Paragraph>
-        <Paragraph>
+        <Paragraph strong>
           <NextLink href='/signup'>
-            <a>新規会員登録</a>
+            <a>新規会員登録はこちら</a>
           </NextLink>
-          はこちら
         </Paragraph>
       </div>
     </App>

@@ -18,3 +18,6 @@ export { ButtonBack } from '@/components/atom/buttons/circle/ButtonBack'
 export { ButtonShare } from '@/components/atom/buttons/circle/ButtonShare'
 export { ButtonFavoriteFilled } from '@/components/atom/buttons/circle/ButtonFavoriteFilled'
 export { ButtonFavoriteOutlined } from '@/components/atom/buttons/circle/ButtonFavoriteOutlined'
+
+// title
+export { TitleH1 } from '@/components/atom/title/TitleH1'

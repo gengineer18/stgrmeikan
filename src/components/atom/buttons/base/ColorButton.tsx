@@ -11,6 +11,7 @@ interface IProps {
   colorHover: string
   height?: number
   isBlock?: boolean
+  onClick: () => void
 }
 
 export const ColorButton: React.FCX<IProps> = ({
@@ -21,6 +22,7 @@ export const ColorButton: React.FCX<IProps> = ({
   colorHover,
   height = 40,
   isBlock,
+  onClick,
 }) => {
   const style = css({
     color: colorText === `black` ? black : white,
@@ -38,7 +40,7 @@ export const ColorButton: React.FCX<IProps> = ({
   })
 
   return (
-    <Button icon={icon} block={isBlock} css={style} type='link'>
+    <Button icon={icon} block={isBlock} css={style} type='link' onClick={onClick}>
       {children}
     </Button>
   )

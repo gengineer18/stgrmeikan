@@ -1,14 +1,29 @@
 import React from 'react'
 import App from '@/components/App'
-import { ButtonPrimary } from '@/components/atom/buttons/ButtonPrimary'
-import Link from '@/components/atom/Link'
+import Link from 'next/link'
+import { Grid } from '@material-ui/core'
+import { CardOverview } from '@/components/commonPresentational/card/CardOverview'
 
 export default function Home(): JSX.Element {
+  const tag = (
+    <Grid item xs={12} sm={6} key='1'>
+      <Link href='/post/[postId]' as='/post/test'>
+        <a>
+          <CardOverview />
+        </a>
+      </Link>
+    </Grid>
+  )
+  const array = []
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < 5; i++) {
+    array.push(tag)
+  }
   return (
     <App>
-      <Link href='/post/[postId]' as='/post/test'>
-        <ButtonPrimary>test</ButtonPrimary>
-      </Link>
+      <Grid container spacing={3}>
+        {array.map((tag) => tag)}
+      </Grid>
     </App>
   )
 }

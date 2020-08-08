@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Grid } from '@material-ui/core'
 import { CardOverview } from '@/components/commonPresentational/card/CardOverview'
 
-export default function ClubId(): JSX.Element {
+export default function Home(): JSX.Element {
   const tag = (key) => (
     <Grid item xs={12} sm={6} key={key}>
       <Link href='/post/[postId]' as='/post/test'>

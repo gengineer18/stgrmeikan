@@ -24,3 +24,5 @@ export const treeData: ITreeData[] = clubs.clubData.map((area: Area) => {
   const children: { title: string; value: string }[] = createChildren(area)
   return { title, value, children }
 })
+
+export const AreaDataEn: string[] = clubs.clubData.map((area: Area) => area.areaEn)

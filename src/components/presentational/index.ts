@@ -11,5 +11,5 @@ export { PostCard } from '@/components/presentational/card/PostCard'
 // list
 export { ClubList } from '@/components/presentational/list/ClubList'
 
-// form
-export { PostForm } from '@/components/presentational/form/PostForm'
+// post
+export { PostForm } from '@/components/presentational/post/PostForm'

@@ -10,3 +10,6 @@ export { PostCard } from '@/components/presentational/card/PostCard'
 
 // list
 export { ClubList } from '@/components/presentational/list/ClubList'
+
+// post
+export { PostForm } from '@/components/presentational/post/PostForm'

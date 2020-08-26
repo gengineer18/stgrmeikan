@@ -11,11 +11,18 @@ const mainWrap = css({
   padding: `96px 8px 72px`,
 })
 
+const styleArticle = css({
+  margin: `auto`,
+  maxWidth: `94%`,
+})
+
 const App: React.FCX = ({ children }: { children: React.ReactNode }) => (
   <>
     <TheHeader />
     <main css={mainWrap}>
-      <section css={baseInnerWidth}>{children}</section>
+      <section css={baseInnerWidth}>
+        <article css={styleArticle}>{children}</article>
+      </section>
     </main>
     <BNavigation />
   </>

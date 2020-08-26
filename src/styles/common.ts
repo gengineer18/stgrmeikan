@@ -5,7 +5,7 @@ import { colorText } from '@/styles/variable'
 export const styledBNaviButton = css({
   minWidth: `80px`,
   width: `25%`,
-  maxWidth: `200px`,
+  maxWidth: `240px`,
 })
 
 export const styledIconButton = css({

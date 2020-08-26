@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
   "engines": {
-    "node": "14"
+    "node": "12"
   },
   "license": "UNLICENSED",
   "main": "firebaseFunctions.js",

@@ -30,20 +30,20 @@ export const PostForm: React.FCX = () => {
     console.log(`Failed:`, errorInfo)
   }
 
-  const normFile = (e) => {
-    console.log(`Upload event:`, e)
-    if (Array.isArray(e)) {
-      return e
-    }
-    return e && e.fileList
-  }
+  // const normFile = (e) => {
+  //   console.log(`Upload event:`, e)
+  //   if (Array.isArray(e)) {
+  //     return e
+  //   }
+  //   return e && e.fileList
+  // }
 
   const [fileList, setFileList] = useState<UploadFile<FileList>[]>([])
-  const [fileUrl, setFileUrl] = useState<string>(``)
+  // const [fileUrl, setFileUrl] = useState<string>(``)
 
   const onChange = ({ fileList: newFileList }) => {
     setFileList(newFileList)
-    setFileUrl(`url`)
+    // setFileUrl(`url`)
   }
 
   const onPreview = async (file) => {
@@ -99,7 +99,7 @@ export const PostForm: React.FCX = () => {
               name='club'
               rules={[
                 { required: true, message: `ホームチームを選択してください！` },
-                ({ getFieldValue }) => ({
+                () => ({
                   validator(_, value) {
                     if (!AreaDataEn.includes(value)) {
                       return Promise.resolve()
@@ -133,7 +133,7 @@ export const PostForm: React.FCX = () => {
                     name='price'
                     noStyle
                     rules={[
-                      ({ getFieldValue }) => ({
+                      () => ({
                         validator(_, value) {
                           if (!value) return Promise.resolve()
                           if (!Number.isNaN(value) && value > 0) {
